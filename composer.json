@@ -1,0 +1,16 @@
+{
+  "name": "apni/seo-sdk",
+  "description": "SEO SDK reusable package for Core PHP & Laravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Apni\\SeoSdk\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {}
+}
