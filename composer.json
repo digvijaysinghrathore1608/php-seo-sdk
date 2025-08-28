@@ -1,7 +1,19 @@
 {
   "name": "apni/seo-sdk",
-  "description": "SEO SDK reusable package for Core PHP & Laravel",
+  "description": "SEO SDK package for Core PHP",
   "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Digvijay Singh Rathore",
+      "email": "dsrathore9549@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
   "autoload": {
     "psr-4": {
       "Apni\\SeoSdk\\": "src/"
@@ -11,6 +23,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {}
+  "prefer-stable": true
 }

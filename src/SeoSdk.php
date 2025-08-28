@@ -6,7 +6,7 @@ class SeoSdk
 {
     protected array $data = [];
 
-    public function set(array $data): static
+    public function set(array $data)
     {
         $this->data = $data;
         return $this;
